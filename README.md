@@ -192,8 +192,6 @@ If you find our survey useful, please kindly cite our paper:
 |            | CodeXGLUE             | Microsoft                | Code intelligence                                      | Wide tasks covering: code-code, text-code, code-text and text-text | [link](https://github.com/microsoft/CodeXGLUE )              |
 |            | EvoCodeBench          | Peking University        | Evolving code generation benchmark                     | Aligned with real-world code repositories, evolving over time | [link](https://github.com/seketeam/EvoCodeBench )            |
 
-
-
 ### Typical Emotional Quotient (EQ)-Alignment Ability evaluation benchmarks
 
 | Name | Year | Task Type | Institution | Category | Datasets | Url |
@@ -314,6 +312,7 @@ If you find our survey useful, please kindly cite our paper:
 |ParlAI | Facebook AI Research | [ParlAI](https://github.com/facebookresearch/ParlAI) | Evaluates model performance in accuracy, F1 score, perplexity (the model's ability to predict the next word in a sequence), human evaluation (relevance, fluency, and coherence), speed and resource utilization, robustness (model performance under varying conditions such as noisy inputs, adversarial attacks, or changes in data quality), and generalization capabilities.|
 |Language Interpretability Tool (LIT) | Google | [LIT](https://pair-code.github.io/lit/) | Provides a platform for evaluating models based on user-defined metrics, analyzing model strengths, weaknesses, and potential biases.|
 |Adversarial NLI (ANLI) | Facebook AI Research, New York University, Johns Hopkins University, University of Maryland, Allen Institute for AI | [Adversarial NLI (ANLI)](https://github.com/facebookresearch/anli) | Evaluates the model's robustness, generalization capabilities, reasoning explanation abilities, consistency, and resource efficiency (memory usage, inference time, and training time). |
+| Hard Puzzle Benchmark | SimReal | [hard-puzzle-benchmark](https://github.com/Simreal-AI/hard-puzzle-benchmark) | 749 hard, human-written reasoning puzzles in 15 topics (707-item scored core), with an evaluation protocol, a scorer and a separate proof-certificate track. |
 
 ### Domain
 
@@ -336,6 +335,8 @@ If you find our survey useful, please kindly cite our paper:
 | SmartPlay | microsoft | Gaming | [SmartPlay](github.com/microsoft/SmartPlay) | SmartPlay is a large language model (LLM) benchmark designed for ease of use, offering a variety of games for testing |
 | FinEval | SUFE-AIFLM-Lab | Finance | [FinEval](github.com/SUFE-AIFLM-Lab/FinEval) | FinEval: A collection of high-quality multiple-choice questions covering fields such as finance, economics, accounting, and certificates |
 | GSM8K | OpenAI | Mathematics | [GSM8K](https://github.com/openai/grade-school-math) | GSM8K is a dataset of 8.5K high-quality linguistically diverse elementary school math word problems. GSM8K divides them into 7.5K training problems and 1K test problems. These problems require 2 to 8 steps to solve, with solutions primarily involving performing a series of basic arithmetic operations (+ - / *) to reach the final answer |
+| Xitadel-QuantBench | SimReal | Finance | [Xitadel-QuantBench](https://github.com/Simreal-AI/Xitadel-QuantBench) | A trading benchmark for LLM agents: the agent researches historical order books, writes a Python strategy, and is scored on an unseen market day against the best human competition strategy on that same day (P&L, drawdown, Sharpe; no LLM judge). |
+| MathmoBench | SimReal | Mathematics | [MathmoBench](https://github.com/Simreal-AI/MathmoBench) | Certificate-graded combinatorial reasoning: each family has four neighbouring instances that flip between feasible and infeasible after one or two small edits; models must return a witness or a machine-checkable impossibility proof. |
 
 ### RAG-Evaluation
 
@@ -356,6 +357,7 @@ If you find our survey useful, please kindly cite our paper:
 | AgentBench | Tsinghua University | [AgentBench](https://github.com/THUDM/AgentBench) | AgentBench is a systematic benchmark evaluation tool for assessing LLMs as intelligent agents, highlighting the performance gap between commercial LLMs and open-source competitors (2023-08-01) |
 | AgentBench Reasoning and Decision-making Evaluation Leaderboard | THUDM | [AgentBench](https://github.com/THUDM/AgentBench) | Jointly launched by Tsinghua and multiple universities, it covers the reasoning and decision-making capabilities of models in different task environments, such as shopping, home, and operating systems |
 | ToolBench Tool Invocation Evaluation | Zhiyuan/Tsinghua | [ToolBench](https://github.com/OpenBMB/ToolBench) | Compares with tool fine-tuned models and ChatGPT to provide evaluation scripts |
+| Simreal-MLBench | SimReal | [Simreal-MLBench](https://github.com/Simreal-AI/Simreal-MLBench) | Externally scored benchmark for ML research agents: 60 tasks across tabular, forecasting, vision, language, audio, multimodal and scientific data; test labels stay with the competition platform. |
 
 ### Code-Capabilities
 
